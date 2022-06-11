@@ -1,0 +1,42 @@
+body{ 
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url("img/Furão.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 5px 10px 10px 20px;
+}   
+p{
+    text-align: justify;
+    font-size: 14pt;
+    text-indent: 36pt;
+    color: aliceblue;
+}
+
+h1{
+    color:fuchsia;
+}
+
+td{
+    padding: 10px;
+    color: aliceblue;
+}
+
+figure{
+    width: 350px;
+    float: left;
+}
+
+figcaption{
+    text-align: center;
+}
+img{
+    width: 350px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: aqua; 
+    border-style: double;
+    border-width: medium;
+    border-radius: 10px;
+}

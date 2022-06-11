@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Opera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario de Cadastro</h1>
+<p>
+    <form action="pagina.html" method="POST" enctype="multipart/form-data" class="Buddy">
+        <label for="endereco" class="Emma">
+            <pre>Endereço:<input type="text" name="endereço" id="endereco" class="coisa">        </pre>
+            
+        </label>
+        <label for="cidade" class="Emma">
+           <pre>Cidade: <input type="text" name="cidade" id="cidade" class="coisa">          </pre>
+           
+        </label>
+        <label for="number" class="Emma">
+           <pre>Nº casa:<input type="number" name="Nº casa" id="number" min="1" max="5000" step="1" class="coisa">                        </pre> 
+        </label>
+        </label>
+        <label for="range" class="Emma">
+            <pre>Quantidade:<input type="range" name="qtde" id="range" class="coisa" min="1" max="5000" step="1"
+                oninput="valor_qtde.value = qtde.value">              </pre>
+        </label>
+        <output name="valor_qtde" id="valor_qtde">
+           <pre><strong>3500</strong>  </pre> 
+        </output>
+        <label for="email" class="Emma">
+            <pre>E-mail:<input type="email" name="email" id="email" placeholder="endereco@servidor.com" class="coisa">            </pre>  
+        </label>
+        <label for="tel" class="Emma">
+            <pre>Telefone:<input type="tel" name="telefone" id="telefone" placeholder="(99) 9999-999" class="coisa">           </pre>
+        </label>
+        <label for="url" class="Emma">
+          <pre>URL:<input type="url" name="url" id="url"placeholder="https://www.ww.com.br" class="coisa">               </pre>   
+        </label>
+ <!--       <label for="data" class="Emma">
+                Data
+                <input type="date" name="Data" id="data" class="coisa">
+            </label>                                                -->
+        <label for="dataehora" class="Emma">
+           <pre> Data e Hora:<input type="datetime-local" name="dataehora" id="dataehora" class="coisa">      </pre>
+        </label>
+        <label for="usuario" class="Emma">
+           <pre> Usuario:<input type="text" name="usuario" id="usuario" class="coisa">            </pre>
+        </label>
+        <label for="senha" class="Emma">
+          <pre>Senha:<input type="password" name="senha" id="senha" class="coisa">              </pre>
+        </label>
+        <label for="Confirmarsenha" class="Emma">
+          <pre>  Confirmar Senha:<input type="password" name="senha" id="confirmarsenha" class="coisa">       </pre>
+        </label>
+        <label for="mensagem" class="Emma"> Mensagem
+            <textarea name="mensagem" id="mensagem"
+            rows="4" cols="30" class="coisa"></textarea>   
+        </label>
+        <label for="lgm" class="Emma">
+           <pre> Com quem mora:                                 </pre>
+               <pre> <input type="radio" name="linguagens" value="Mora alone" id="lgm" class="coisa">Mora alone          </pre>
+               <pre> <input type="radio" name="linguagens" value="Mora com alguem" id="lgm" class="coisa">Mora com alguem     </pre>
+               <pre> <input type="radio" name="linguagens" value="Mora com a esposa(o)" id="lgm" class="coisa">Mora com a esposa(o)</pre>
+        </label>
+        <label for="botao_upload" class="Emma">
+            Botão de <i>upload</i>
+        <input type="file" name="botao_upload" id="botao_upload" class="coisa">
+        </label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <label for="enviar" class="Emma"> 
+            <input type="submit" value="Enviar" id="enviar" class="raiva">
+        <label for="limpar" class="Emma">
+            <input type="reset" value="Limpar" id="limpar" class="raiva">
+        </label>
+        </label>
+       
+        
+        
+    </p>
+    </form>
+
+</body>
+
+</html>
+
+
+
+<!-- 
+<Formulario>    
+
+    Recurso para envio de informações
+        EX: Cadastro de Usuario
+
+            <form action = "pagina.html" method = "post">
+
+            </form>
+Form: Inicio do formulario    
+Action: Local que os dados serão enviado
+Method: Método de envio(post) 
+</Fomulario>
+
+<input>
+    <input type ="text" name ="endereço">
+        Input(Tipo): Caixa de texto
+            Name: Nome do campo 
+        <OBS> 
+        input é insireido dentro da tag form
+</OBS>    
+</input>
+-->

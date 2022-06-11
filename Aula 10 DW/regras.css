@@ -1,0 +1,28 @@
+#p1{
+    color: darkmagenta;
+    font-size: 14;
+}
+#p2{
+    color: rgb(27, 133, 231);
+    font-size: 14;
+}
+.item_h{
+    color: rgb(184, 3, 3);
+    font-family: Arial;
+    font-size: 36pt;
+}
+#banner{
+    color: #fff;
+    font-family: Arial;
+    font-size: 14pt;
+}
+.menu_suo{
+    font-family: Arial;
+    font-size: 14pt;
+    color: blue;
+}
+.cabecalho{
+    font-family: Arial;
+    font-size: 12pt;
+    color: red;
+}

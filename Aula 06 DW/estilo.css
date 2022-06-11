@@ -1,0 +1,15 @@
+.Buddy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.Emma {
+    margin-top: 30px;
+}
+.coisa {
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+}

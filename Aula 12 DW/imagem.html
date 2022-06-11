@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Imagens</title> 
+<meta charset="UTF-8"> 
+</head>
+<body>
+<script type="text/javascript"> 
+	function mudar(objeto, imagem) { 
+		document.getElementById(objeto).src = imagem;
+	} 
+</script> <h1>Imagens</h1>
+<a onmouseover="mudar('lampada', 'lamp-lig.jpg')"
+onmouseout="mudar('lampada', 'lamp-desl.jpg')"> 
+<img src="lamp-desl.jpg" border="0" id="lampada">
+</a>
+</body> 
+</html>

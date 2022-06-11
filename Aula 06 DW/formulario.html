@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Opera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario de Cadastro</h1>
+
+    <form action="pagina.html" method="POST" class="Buddy">
+        <label for="endereco" class="Emma">
+            Endereço
+            <input type="text" name="endereço" id="endereco" class="coisa">
+        </label>
+        <label for="cidade" class="Emma">
+            Cidade
+            <input type="text" name="cidade" id="cidade" class="coisa">
+        </label>
+        <label for="number" class="Emma">
+            Nº casa
+            <input type="number" name="Nº casa" id="number" min="1" max="5000" step="1" class="coisa">
+        </label>
+        </label>
+        <label for="range" class="Emma">
+            Quantidade
+            <input type="range" name="qtde" id="range" class="coisa" min="1" max="5000" step="1"
+                oninput="valor_qtde.value = qtde.value">
+        </label>
+        <output name="valor_qtde" id="valor_qtde">
+            3500
+        </output>
+        <label for="email" class="Emma">
+            E-mail
+            <input type="email" name="email" id="email" placeholder="endereco@servidor.com" class="coisa">
+        </label>
+        <label for="tel" class="Emma">
+            Telefone
+            <input type="tel" name="telefone" id="telefone" placeholder="(99) 9999-999" class="coisa">
+        </label>
+        <label for="url" class="Emma">
+            URL
+            <input type="url" name="url" id="url"placeholder="https://www.ww.com.br" class="coisa">
+        </label>
+        <input type="submit" value="Enviar" class="coisa">
+        <input type="reset" value="Limpar" class="coisa">
+
+    </form>
+
+</body>
+
+</html>
+
+
+
+<!-- 
+<Formulario>    
+
+    Recurso para envio de informações
+        EX: Cadastro de Usuario
+
+            <form action = "pagina.html" method = "post">
+
+            </form>
+Form: Inicio do formulario    
+Action: Local que os dados serão enviado
+Method: Método de envio(post) 
+</Fomulario>
+
+<input>
+    <input type ="text" name ="endereço">
+        Input(Tipo): Caixa de texto
+            Name: Nome do campo 
+        <OBS> 
+        input é insireido dentro da tag form
+</OBS>    
+</input>
+-->
